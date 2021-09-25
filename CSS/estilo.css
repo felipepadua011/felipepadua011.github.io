@@ -1,0 +1,162 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:baseline; 
+    align-items: center;
+    margin: 0px;
+    padding: 0%;
+}
+.nome {
+    background-color: rgb(221, 221, 221);
+    color: black;
+    padding: 3%;
+}
+.status { 
+    background-color: rgb(221, 221, 221);
+    color: black;
+    padding: 3%;
+}
+.titulo { 
+    display: flex;
+    background-color: rgb(221, 221, 221);
+    justify-content:baseline; 
+    font-family:Georgia, serif;
+    margin: 0px;
+    padding: 0px;
+}
+.image { 
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap:wrap-reverse; 
+    /* flex-flow: row wrap; */
+    justify-content:end;
+    align-items: end;
+    gap: 10px;
+    margin: 0px 85px 0px 0px;
+    padding: 0px;
+    border
+}
+.part1 {
+    background-color: rgb(221, 221, 221);
+}
+.ferro { 
+    background-color: rgb(221, 221, 221);
+    color: black;
+    display: flex;
+    flex-direction:initial;
+    flex-wrap: wrap; 
+    /* flex-flow: row wrap; */
+    justify-content:baseline;
+    align-items:flex-start;
+    gap: 10px;
+    font-family:Georgia, serif;
+    margin: 0px;
+    padding: 50px;
+}
+h1 {
+    color: black; /* Color é a definição de color no html. */
+    
+    /* background-color: red;  */
+    /* padding: 20px; */
+    font-size: 50px;
+}
+h2 {
+    color:black;
+}
+
+.humor { 
+    color: red;
+    display: flex;
+    flex-direction:initial;
+    flex-wrap: wrap; 
+    /* flex-flow: row wrap; */
+    justify-content:baseline;
+    align-items:flex-start;
+    gap: 10px;
+    font-family:Georgia, serif;
+    margin: 0px;
+    padding: 50px;
+    size: 50px;
+}
+a {
+    color: rgb(182, 0, 85);
+    border: 1px solid black;
+    padding: 5px;
+    margin: 15px;
+    text-decoration: none;
+    border-radius: 10px 10px 10px 10px;
+}
+header { 
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(221, 221, 221);
+    background-repeat: no-repeat; 
+    /* background-size: cover; */
+    /* background-position: center;  */
+    
+}
+a:hover { 
+    background-color:rgb(246, 143, 143);
+}
+
+.botoes { 
+    color: white;
+    height: 100px;
+    
+}
+#botao1 { 
+    background-color: rgb(165, 0, 0);
+    color: white;
+    margin: 5px;
+    padding: 1%;
+    border-radius: 10px;
+    margin: 10%;
+}
+#botao2 { 
+    background-color: rgb(0, 26, 255);
+    color: white;
+    margin: 5px;
+}
+#botao3 { 
+    background-color: rgb(0, 26, 255);
+    color: white;
+    margin: 0px;
+    padding: 7px;
+}
+/* CLASS */
+.texto { /* Ponto é para localizar uma classe. */
+    color:darkmagenta;   
+    border: solid 2px black;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* IDS */
+#texto1{ /* Hashtags são para identificar um id. */
+    color:rgb(0, 0, 0)
+}
+
+#titulo { 
+    color: rgb(255, 255, 255);
+}
+.blue { 
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(221, 221, 221);
+    background-repeat: no-repeat; 
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap; 
+    font-family:Georgia, serif;
+    margin: 0px;
+    padding: 50px;
+}
